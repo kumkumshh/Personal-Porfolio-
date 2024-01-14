@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #FBF9F1;
+}
+
+.hero{
+    padding-top: 5rem;
+}
+
+.hero h2 span{
+    color: #FF9843;
+}
+
+h1{
+    font-size: 4.8rem;
+    font-weight: bolder;
+}
+
+.btn{
+    display: flex;
+    gap: 2rem;
+}
+
+.button {
+    color: #FF9843;
+    padding: 0.8em 1.7em;
+    background-color: transparent;
+    border-radius: .3em; 
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: .5s;
+    font-weight: 400;
+    font-size: 17px;
+    border: 2px solid #FF9843 ;
+    font-family: inherit;
+   }
+   
+   .button:hover {
+    background-color: #FF9843;
+    color: rgb(10, 25, 30);
+   }
+   
+   .button:active {
+    filter: brightness(.8);
+   }
+
+   .chat-btn{
+    background-color: #FF9843;
+    color: rgb(10, 25, 30);
+   }
+
+   .chat-btn:hover{
+    background-color: transparent;
+    color: #FF9843;
+   }
+   
