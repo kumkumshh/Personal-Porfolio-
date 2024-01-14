@@ -9,16 +9,28 @@ body{
 }
 
 .hero{
-    padding-top: 5rem;
+    height: 100vh;
+    padding-top: 4.5rem;
+    padding-bottom: 5rem;
 }
 
 .hero h2 span{
     color: #FF9843;
+    letter-spacing: .1rem;
+    font-weight: 800;
 }
 
 h1{
-    font-size: 4.8rem;
+    font-size: 4.48rem;
     font-weight: bolder;
+    padding: 0.6rem;
+}
+
+
+
+.hero p{
+    padding: 1rem;
+    font-size: 1.3rem;
 }
 
 .btn{
@@ -34,8 +46,7 @@ h1{
     position: relative;
     overflow: hidden;
     cursor: pointer;
-    transition: .5s;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 17px;
     border: 2px solid #FF9843 ;
     font-family: inherit;
@@ -55,8 +66,33 @@ h1{
     color: rgb(10, 25, 30);
    }
 
-   .chat-btn:hover{
-    background-color: transparent;
+   /* ABOUT SECTION */
+   #about-section{
+    height: 90vh;
+    padding-bottom: 4rem;
+   }
+
+   .about h2{
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: .3rem;
+    padding: 1rem;
+   }
+
+   .about p{
+    font-size: 1.3rem;
+   }
+
+   .about .imp{
     color: #FF9843;
    }
+
+   .about img{
+    height: 80vh;
+    border: 2px solid;
+    border-radius: 50px;
+   }
+
+
+
    
