@@ -8,6 +8,13 @@ body{
     background-color: #FBF9F1;
 }
 
+.heading{
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: .3rem;
+    padding: 1rem;
+}
+
 .hero{
     height: 100vh;
     padding-top: 4.5rem;
@@ -88,9 +95,56 @@ h1{
    }
 
    .about img{
+    min-width: fit-content;
     height: 80vh;
     border: 2px solid;
     border-radius: 50px;
+   }
+
+   @media only screen and (max-width: 994px) {
+    .about img {
+      visibility: hidden;
+    }
+  }
+
+   /* SKILLS SECTION */
+  #skills-section{
+    height: auto;
+    padding-bottom: 5rem;
+    overflow: auto;
+   } 
+
+   .skills-names h3{
+    padding: 1rem;
+    border: 2px solid;
+   }
+
+   h3 i{
+    color: #FF9843;
+    font-size: 2.5rem;
+    padding: auto;
+    border-radius: 1px solid black;
+   }
+
+   @media only screen and (max-width: 994px) {
+    #skills-section{
+      padding-top: 4rem;  
+    }
+  }
+
+  @media only screen and (max-width: 459px) {
+    #skills-section{
+      padding-top: 5rem;  
+    }
+  }
+
+   /* PROJECTS SECTION */
+   #project-section{
+    padding-bottom: 5rem;
+   }
+
+   .proj-name{
+    border: 2px solid;
    }
 
 
