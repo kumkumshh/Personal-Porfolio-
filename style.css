@@ -13,6 +13,7 @@ body{
     font-weight: 700;
     letter-spacing: .3rem;
     padding: 1rem;
+    margin: 1rem;
 }
 
 .hero{
@@ -49,7 +50,7 @@ h1{
     color: #FF9843;
     padding: 0.8em 1.7em;
     background-color: transparent;
-    border-radius: .3em; 
+    border-radius: .3rem; 
     position: relative;
     overflow: hidden;
     cursor: pointer;
@@ -101,13 +102,17 @@ h1{
     border-radius: 50px;
    }
 
-   @media only screen and (max-width: 994px) {
-    .about img {
+   @media only screen and (max-width: 998px) {
+    .about p{
+      font-size: 1.1rem;
+     }
+    .about img{
       visibility: hidden;
     }
   }
 
-   /* SKILLS SECTION */
+   
+   /* SKILLS SECTION
   #skills-section{
     height: auto;
     padding-bottom: 5rem;
@@ -124,27 +129,42 @@ h1{
     font-size: 2.5rem;
     padding: auto;
     border-radius: 1px solid black;
-   }
-
-   @media only screen and (max-width: 994px) {
-    #skills-section{
-      padding-top: 4rem;  
-    }
-  }
-
-  @media only screen and (max-width: 459px) {
-    #skills-section{
-      padding-top: 5rem;  
-    }
-  }
+   } */
 
    /* PROJECTS SECTION */
-   #project-section{
-    padding-bottom: 5rem;
+
+   
+   #projects-section{
+    padding-bottom:5 rem;
+    height: 100vh;
+    width: fit-content;
    }
 
    .proj-name{
     border: 2px solid;
+   }
+
+   .card{
+    padding: 1rem;
+    margin: 1rem;
+    border: 3px solid #FF9843;
+    border-radius: .3rem;
+   }
+
+   .card:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   }
+
+   .card-title{
+    padding-bottom: .5rem;
+   }
+
+   .card-text{
+    padding-bottom: .7rem;
+   }
+
+   .card-body a{
+    text-decoration: none;
    }
 
 
